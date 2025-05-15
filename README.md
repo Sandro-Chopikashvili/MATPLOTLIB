@@ -22,4 +22,4 @@ It showcases how to:
    ```bash
    pip install matplotlib numpy
 
-![Sine and Cosine Functions](sine_cosine_plot.png)
+![Sine and Cosine Functions](Source/sine_cosine_plot.png)
