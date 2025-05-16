@@ -19,7 +19,31 @@ It showcases how to:
 1. Make sure you have Python installed (Python 3.6+ recommended). 🐍  
 2. Install the required libraries if you don’t have them:
 
-   ```bash
-   pip install matplotlib numpy
+ ```bash
+pip install matplotlib numpy
+ ```
+
+
+## 📝 Code 
+```py
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 10, 100)
+y1 = np.sin(x)
+y2 = np.cos(x)
+
+plt.figure(figsize=(10, 6))
+
+plt.plot(x, y1, label='sin(x)', color='blue', linestyle='-')
+plt.plot(x, y2, label='cos(x)', color='red', linestyle='--')
+
+plt.title('Sine and Cosine Functions')
+plt.xlabel('x values')
+plt.ylabel('Function values')
+
+plt.legend()
+plt.savefig("sine_cosine_plot.png")  
+```
 
 ![Sine and Cosine Functions](Source/sine_cosine_plot.png)
