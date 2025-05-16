@@ -4,7 +4,7 @@ This repository contains a simple Python script demonstrating how to create basi
 
 ## 📝 Description
 
-The script `matplotlib_basic_plot.py` generates and plots the sine and cosine functions over 100 evenly spaced points between 0 and 10.
+The script `SinCos.ipynb` generates and plots the sine and cosine functions over 100 evenly spaced points between 0 and 10.
 
 It showcases how to:
 
